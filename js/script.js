@@ -1,6 +1,7 @@
 $(document).ready(() => {
 	// JQuery Code
 	// Start Section Header
+	
 });
 
 let x;

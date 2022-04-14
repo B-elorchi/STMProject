@@ -21,28 +21,28 @@
 	</head>
 	<body>
 		<!-- <<==============<<<=========== Start Section Header =============>>>===========>> -->
-		<header class="header sticky-top" id="header">
-			<!-- <div
-				class="navheader container-fluid d-flex justify-content-around bg-dark text-light pt-2 pb-2"
+		<div
+			class="navheader container-fluid d-flex flex-wrap justify-content-between text-center bg-dark text-light pt-2 pb-2"
+		>
+			<a href="" class="text-light"
+				><i class="fas fa-phone pe-2"></i>+212*******************</a
 			>
-				<a href="" class="text-light"
-					><i class="fas fa-phone pe-2"></i>+212*******************</a
-				>
-				<a href="" class="text-light"
-					><i class="fas fa-map-marked-alt pe-2"></i>Maarif******************</a
-				>
-				<div class="d-flex justify-content-between gap-3">
-					<a href="" class="text-light">
-						<i class="fab fa-facebook"></i>
-					</a>
-					<a href="" class="text-light">
-						<i class="fab fa-whatsapp"></i>
-					</a>
-					<a href="" class="text-light">
-						<i class="fab fa-instagram"></i>
-					</a>
-				</div>
-			</div> -->
+			<a href="" class="text-light"
+				><i class="fas fa-map-marked-alt pe-2"></i>Maarif******************</a
+			>
+			<div class="d-flex justify-content-between gap-3">
+				<a href="" class="text-light">
+					<i class="fab fa-facebook"></i>
+				</a>
+				<a href="" class="text-light">
+					<i class="fab fa-whatsapp"></i>
+				</a>
+				<a href="" class="text-light">
+					<i class="fab fa-instagram"></i>
+				</a>
+			</div>
+		</div>
+		<header class="header sticky-top" id="header">
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 				<div class="container-fluid">
 					<a class="navbar-brand" href="#">
@@ -64,13 +64,14 @@
 						aria-expanded="false"
 						aria-label="Toggle navigation"
 					>
-						<span class="navbar-toggler-icon"></span>
+						<!-- <span class="navbar-toggler-icon"></span> -->
+						<i class="fa-solid fa-bars"></i>
 					</button>
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
 							<li class="nav-item">
 								<a class="nav-link active" aria-current="page" href="#"
-									><i class="fas fa-home"></i>Home</a
+									><i class="fa-solid fa-house"></i>Home</a
 								>
 							</li>
 							<li class="nav-item">
@@ -89,7 +90,7 @@
 							</li>
 							<li class="nav-item">
 								<a class="nav-link"
-									><i class="fas fa-info-circle"></i>About we</a
+									><i class="fa-solid fa-circle-info"></i>About we</a
 								>
 							</li>
 						</ul>
@@ -100,10 +101,9 @@
 								placeholder="Search"
 								aria-label="Search"
 							/>
-							<a class="btn btn-outline-success" >
+							<a class="btn btn-outline-secondary" style="border: none">
 								<i class="fa-solid fa-magnifying-glass"></i>
 							</a>
-							
 						</form>
 					</div>
 				</div>
@@ -257,14 +257,15 @@
 			</div>
 		</div>
 		<section class="categorie mb-5 mt-5 pt-5 pb-5" id="categorie">
-			<div class="container-fluid">
-				<div class="section-head text-center mt-5 mb-4 pb-4">
+			<div class="section-head text-center mt-5 mb-4 pb-4">
 					<h2>Services Man</h2>
 					<p>
 						From complete turn key to project manager. Leave the building to the
 						professionals.
 					</p>
 				</div>
+			<div class="container">
+				
 				<div class="cat-col">
 					<div class="row m-auto">
 						<div class="col">
@@ -395,12 +396,52 @@
 								</div>
 							</div>
 						</div>
+						<a href="" class="more text-center mb-4 m-auto"
+							>More Services <i class="fa-solid fa-circle-arrow-right"></i
+						></a>
 					</div>
 				</div>
-				<a href="" class="text-center">More Services</a>
 			</div>
 		</section>
+	
 		<!-- End Futures -->
+		<!-- =========================Start Section About Us============================= -->
+		<section class="aboutus mt-5 pt-4 mb-5 pb-4" id="about">
+			<div class="section-head text-center mt-5 mb-4 pb-4">
+					<h2>About Us</h2>
+					<p>
+						From complete turn key to project manager. Leave the building to the
+						professionals.
+					</p>
+			</div>
+			<div class="container mt-3">
+				<div class="row align-items-center">
+					<div class="col-md-5">
+						<div class="image">
+							<img src="./img/about.jpg" alt="">
+						</div>
+					</div>
+					<div class="col-md-5">
+						<div class="d-flex justify-content-around">
+							<div class="col-x">
+								<span>+233</span>
+								<p>Lorem ipsum dolor sit amet .</p>
+							</div>
+							<div class="col-x">
+								<span>+233</span>
+								<p>Lorem ipsum dolor sit amet .</p>
+							</div>
+							
+						</div>
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse praesentium debitis delectus distinctio animi quibusdam aliquam, harum numquam possimus nemo eaque vel iure odio iste eum dignissimos velit id fuga. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto reprehenderit dolore, nulla impedit voluptatum eos cupiditate corporis molestiae esse. Iure porro delectus quia, provident odio nobis nostrum quos? Sequi, dolore. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat dignissimos eos error nulla aliquam, ea aut? Non repellat porro eum quisquam autem esse, magnam sed sunt tempora atque, deleniti dolores.</p>
+
+						<a href="#" class="btn btn-outline-dark">Read More</a>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<!-- =========================End Section About Us============================= -->
 		<!-- <<==============<<<=========== End Section Main =============>>>===========>> -->
 		<!-- -----------------Start Section Testimonials---------- -->
 		<div class="tesimonials">
@@ -632,6 +673,15 @@
 		<script src="./js/splide.min.js"></script>
 
 		<script src="./js/script.js"></script>
-		<script></script>
+		<script>
+			console.log($("#header").scrollTop());
+			window.onscroll = () => {
+				if (window.scrollY >= 50) {
+					$(".navbar").addClass("header-scroll");
+				} else {
+					$(".navbar").removeClass("header-scroll");
+				}
+			};
+		</script>
 	</body>
 </html>
